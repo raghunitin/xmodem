@@ -1,0 +1,27 @@
+//
+// Created by Raghu Sundar on 09/07/2024.
+//
+
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define CONTROL_ACK 0x06
+#define CONTROL_ASCII_C 0x43
+#define CONTROL_NACK 0x15
+
+#define DATA_SOH 0x01
+#define DATA_EOT 0x04
+#define DATA_ETB 0x17
+#define DATA_CAN 0x18
+
+#define CONTROL_LENGTH 1
+#define DATA_LENGTH 128
+#define CRC_PACKET_LENGTH 133
+
+#define PACKET_CHECKSUM 0xFF
+
+#define RESEND_CONTROL_TIMEOUT_MILLISECONDS 3000
+
+#define XBUFFER_DATA_LENGTH 127
+
+#endif //CONFIG_H
